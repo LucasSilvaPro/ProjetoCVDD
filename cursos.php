@@ -56,7 +56,7 @@
 					</tr>
 				
 				<?php
-					require_once("conexão.php");
+					require_once("conec.php");
 					$sql="SELECT * FROM  Curso";
 					$result=$conn->query($sql) or die ($sql->error);
 				?>
