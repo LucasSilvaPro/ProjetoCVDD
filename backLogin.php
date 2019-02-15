@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require_once("conexão.php");
+	require_once("conec.php");
 	$usuario=addslashes($_POST['usuario']);
 	$senha=addslashes($_POST['senha']);
 	$sql="SELECT * FROM Login WHERE usuario='$usuario' AND senha='$senha'";
