@@ -1,6 +1,6 @@
 <?php
 	
-	require_once("conexão.php");
+	require_once("conec.php");
 	$id=$_GET['id'];
 	$sql="DELETE FROM Curso WHERE id='$id'";
 	$result=$conn->query($sql) or die ($sql->error);
