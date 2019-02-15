@@ -5,7 +5,7 @@
 	echo "<link rel='stylesheet' type='text/css' href='css/uikit-rtl.css'>";
 	echo "<link rel='stylesheet href='css/princessSophia.css'/>";
 	echo "<link rel='stylesheet' type='text/css' href='css/style.css'>";
-	require_once("conexão.php");
+	require_once("conec.php");
 	$sql="SELECT id,nome_curso FROM curso WHERE status_curso='1'";
 	$result=$conn->query($sql) or die ($sql->error);
 
