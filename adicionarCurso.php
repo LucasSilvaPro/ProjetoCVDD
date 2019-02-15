@@ -1,6 +1,6 @@
 <?php
 	
-	require_once("conexão.php");
+	require_once("conec.php");
 	echo "<form action='adicionarCurso.php' method='post'>
 			<legend><h1>Adicionar Curso</h1></legend><br>
 			<div class='uk-margin'>
