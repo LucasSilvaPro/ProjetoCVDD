@@ -18,7 +18,7 @@
 	</form>
 <?php
 	if(isset($_POST['alunoN'])){
-		require_once("conexão.php");
+		require_once("conec.php");
 		$imagem=$_FILES['arquivo'];
 		$a = file_get_contents($imagem['tmp_name'],$imagem['size']);
 		$foto = base64_encode($a);
